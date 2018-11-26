@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybootlab.iml" filepath="$PROJECT_DIR$/.idea/modules/mybootlab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybootlab_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mybootlab_main.iml" group="mybootlab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mybootlab_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mybootlab_test.iml" group="mybootlab" />
+    </modules>
+  </component>
+</project>
