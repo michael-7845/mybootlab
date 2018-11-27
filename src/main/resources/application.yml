@@ -1,0 +1,30 @@
+server:
+  port: 8081
+  max-http-header-size: 16384
+spring:
+  application:
+    name: mybootlab
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+         ddl-auto: create-drop # Hibernate database table initialization
+#         ddl-auto: none # Spring JDBC database table initialization
+  datasource:
+    database: h2
+    continue-on-error: false
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    initialize: true
+#    schema: classpath:db/schema.sql # Spring JDBC database table initialization
+    data: classpath:db/data.sql
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+      settings:
+        web-allow-others: true
+
+

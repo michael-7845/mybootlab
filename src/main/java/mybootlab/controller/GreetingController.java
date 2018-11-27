@@ -1,9 +1,15 @@
-package hello;
+package mybootlab.controller;
 
+import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.atomic.AtomicLong;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+
+import mybootlab.model.Customer;
+import mybootlab.repository.CustomerRepository;
+import mybootlab.model.Greeting;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class  GreetingController {

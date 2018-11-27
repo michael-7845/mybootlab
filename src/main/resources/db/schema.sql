@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `CUSTOMER`;
+
+CREATE TABLE `CUSTOMER` (
+ `id` bigint(20) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ `first_name` varchar(30) NOT NULL,
+ `last_name` varchar(30) NOT NULL
+);

@@ -1,0 +1,1 @@
+INSERT INTO CUSTOMER (id, first_name, last_name) VALUES (1L, 'michael', 'yu'), (2L, 'ian', 'ling'), (3L, 'linda', 'li');
